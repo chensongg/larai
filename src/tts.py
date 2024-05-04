@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from deepgram import (
     SpeakOptions,
 )
-from deepgram_client import deepgram_client
+from src.deepgram_client import deepgram_client
 
 load_dotenv()
 
